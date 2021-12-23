@@ -21,11 +21,15 @@ li {
 button.login {
     border-radius: 3px;
     border-style: none;
-    color: white;
     padding: 9px 20px;
     background-color: #1A73E8;  
-    font-size: 13px;  
+    font-size: 13px; 
 }
+button.login a {
+    color: white;
+    text-decoration: none;
+}
+
 .gif {
     text-align: center;
     margin-top: 70px;
@@ -111,4 +115,7 @@ footer ul.right{
     list-style: none;
     justify-content: end;
     padding: 0 25px 5px 0;
+}
+a {
+    text-decoration: none;
 }
