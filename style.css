@@ -7,6 +7,12 @@
     color: grey;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 header ul {
     display: flex;
     list-style: none;
@@ -20,7 +26,7 @@ header ul li {
 }
 
 li.apps {
-    padding-right: 0;
+    padding-right: 0 2px;
 }
 
 button.login {
@@ -36,6 +42,7 @@ button.login a {
 }
 
 .container {
+    flex: 1;
     width: 100%;
     max-width: 100%;
     margin: 0 auto;
@@ -138,6 +145,7 @@ footer ul.right{
 }
 footer li {
     padding: 5%; 
+    white-space: nowrap;
 }
 
 a {
